@@ -10,13 +10,6 @@ import com.simplilearn.entity.Course;
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Long> {
 
-	/**
-	 * Finds courses by their title containing the specified string. This method
-	 * could be useful for implementing search functionality.
-	 * 
-	 * @param title the title or part of the title to search for
-	 * @return a list of courses matching the search criteria
-	 */
 	// write your code for method to find list of courses by their title,
 	// and it must return data in list
 	
