@@ -17,5 +17,7 @@ public interface CourseRepository extends JpaRepository<Course, Long> {
 	 * @param title the title or part of the title to search for
 	 * @return a list of courses matching the search criteria
 	 */
-	List<Course> findByTitleContainingIgnoreCase(String title);
+	// write your code for method to find list of courses by their title,
+	// and it must return data in list
+	
 }
